@@ -6,10 +6,10 @@ def upper_letters(word):
     return word.upper()
 
 
-def lower_letters(word):
+def capitalize_letters(word):
     """
     Принимает на вход строку и
-    возвращает ее со всеми маленькими буквами
+    возвращает ее со всеми заглавными буквами каждого слова
     """
-    return word.lower()
+    return word.capitalize()
 
